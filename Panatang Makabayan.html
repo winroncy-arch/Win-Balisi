@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panatang Makabayan</title>
+  <style>
+    /* Import a Google Font for better style */
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Merriweather', serif;
+      color: #fff;
+      text-align: center;
+      background: linear-gradient(to bottom, #0038A8 33%, #CE1126 66%, #FCD116 100%);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .container {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+      max-width: 700px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    img.flag {
+      width: 120px;
+      margin-bottom: 20px;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #FFD700;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    }
+
+    .pledge {
+      font-size: 20px;
+      line-height: 1.9;
+      white-space: pre-line; /* keeps line breaks */
+    }
+
+    /* Animation for smooth fade-in */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Flag float animation */
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_the_Philippines.svg" 
+         alt="Philippine Flag" class="flag">
+
+    <h1>PANATANG MAKABAYAN</h1>
+    <div class="pledge">
+INIIBIG KO ANG PILIPINAS  
+AKING LUPANG SINILANGAN  
+TAHANAN NG AKING LAHI  
+KINUKUPKOP AKO AT TINUTULUNGAN  
+UPANG MAGING MALAKAS, MASIPAG, AT MARANGAL  
+
+DAHIL MAHAL KO ANG PILIPINAS  
+DIRINGGIN KO ANG PAYO NG AKING MGA MAGULANG  
+SUSUNDIN KO ANG TUNTUNIN NG PAARALAN  
+TUTUPARIN KO ANG TUNGKULIN NG MAMAMAYANG MAKABAYAN  
+NAGLILINGKOD, NAG AARAL, AT NANANALANGIN  
+NANG BUONG KATAPATAN  
+
+IAALAY KO ANG AKING BUHAY, PANGARAP AT PAGSISIKAP  
+SA BANSANG PILIPINAS.
+    </div>
+
+    <footer> Panata ng Kabataan-Pagmamahal sa Inang Bayan</footer>
+  </div>
+</body>
+</html>
